@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cd backend && node ./bin/www",
+    "dev": "concurrently \"npm run client-start\" \"nodemon ./backend/bin/www",
+    "client-start": "cd client && react-scripts start",
+    "client-build": "cd client && react-scripts build",
+    "client-test": "cd client && react-scripts test",
+    "client-eject": "cd client && react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -16,5 +21,22 @@
   "bugs": {
     "url": "https://github.com/supermancash/uniecommerce/issues"
   },
-  "homepage": "https://github.com/supermancash/uniecommerce#readme"
+  "homepage": "https://github.com/supermancash/uniecommerce#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "concurrently": "^6.3.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  }
 }
