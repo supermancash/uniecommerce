@@ -1,4 +1,4 @@
-##Getting started
+## Getting started
 
 Once repository is cloned run
 `yarn`
