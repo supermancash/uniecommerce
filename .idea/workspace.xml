@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="adding basic frontend design">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/images/basketball.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/images/goldbar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/images/hamburger.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/images/hoodie.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/images/necklace.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/images/trousers.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/images/tshirt.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Cart.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/CartCanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Product.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/reducers/cartReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="remove yarn.lock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +75,8 @@
       <recent name="$PROJECT_DIR$/client/src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -111,6 +87,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.start" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -128,7 +118,7 @@
       <workItem from="1636914694982" duration="1129000" />
       <workItem from="1636996368910" duration="1210000" />
       <workItem from="1637165787283" duration="6337000" />
-      <workItem from="1637222262854" duration="30877000" />
+      <workItem from="1637222262854" duration="31843000" />
     </task>
     <task id="LOCAL-00001" summary="adding basic frontend design">
       <created>1636647663643</created>
@@ -137,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636647663643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first working prototype">
+      <created>1637317854337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637317854338</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove yarn.lock">
+      <created>1637318028538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637318028538</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +174,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding basic frontend design" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding basic frontend design" />
+    <MESSAGE value="first working prototype" />
+    <MESSAGE value="remove yarn.lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove yarn.lock" />
   </component>
 </project>
