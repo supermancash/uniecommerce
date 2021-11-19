@@ -4,21 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/public/64x64cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" afterDir="false" />
+    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="adding basic frontend design">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/images/basketball.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/images/goldbar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/images/hamburger.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/images/hoodie.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/images/necklace.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/images/trousers.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/images/tshirt.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CartCanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Product.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/reducers/cartReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -27,8 +37,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -46,14 +64,21 @@
     </option>
   </component>
   <component name="ProjectId" id="205Lz6c3Xt9jGB2ZTBTx21o6kUc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="17.0.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.7" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -98,8 +123,21 @@
       <workItem from="1635329768590" duration="586000" />
       <workItem from="1636618245239" duration="6793000" />
       <workItem from="1636638013868" duration="5000" />
-      <workItem from="1636638040192" duration="5796000" />
+      <workItem from="1636638040192" duration="6131000" />
+      <workItem from="1636718629744" duration="1075000" />
+      <workItem from="1636914694982" duration="1129000" />
+      <workItem from="1636996368910" duration="1210000" />
+      <workItem from="1637165787283" duration="6337000" />
+      <workItem from="1637222262854" duration="30877000" />
     </task>
+    <task id="LOCAL-00001" summary="adding basic frontend design">
+      <created>1636647663643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636647663643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,11 +148,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="adding basic frontend design" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding basic frontend design" />
   </component>
 </project>

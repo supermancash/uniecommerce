@@ -1,0 +1,37 @@
+[
+  {
+    "product": "T-Shirt",
+    "description": "A T-shirt, or tee shirt, is a style of fabric shirt named after the T shape of its body and sleeves. Traditionally, it has short sleeves and a round neckline, known as a crew neck, which lacks a collar. T-shirts are generally made of a stretchy, light, and inexpensive fabric and are easy to clean.",
+    "image": "tshirt.jpeg"
+  },
+  {
+    "product": "Trousers",
+    "description": "Trousers (British English), slacks, or pants are an item of clothing that might have originated in Central Asia, worn from the waist to the ankles, covering both legs separately (rather than with cloth extending across both legs as in robes, skirts, and dresses).",
+    "image": "trousers.jpeg"
+  },
+  {
+    "product": "Hoodie",
+    "description": "A hoodie (in some cases it is also spelt hoody[1] and alternatively known as a hooded sweatshirt)[2] is a sweatshirt with a hood.[1] Hoodies often include a muff sewn onto the lower front, and (usually) a drawstring to adjust the hood opening.",
+    "image": "hoodie.jpeg"
+  },
+  {
+    "product": "Necklace",
+    "description": "A necklace is an article of jewellery that is worn around the neck. Necklaces may have been one of the earliest types of adornment worn by humans.[1] They often serve ceremonial, religious, magical, or funerary purposes and are also used as symbols of wealth and status, given that they are commonly made of precious metals and stones.",
+    "image": "necklace.jpeg"
+  },
+  {
+    "product": "Basketball",
+    "description": "A basketball is a spherical ball used in basketball games. Basketballs usually range in size from very small promotional items that are only a few inches (some centimeters) in diameter to extra large balls nearly 2 feet (60 cm) in diameter used in training exercises.",
+    "image": "basketball.jpeg"
+  },
+  {
+    "product": "Gold Bar",
+    "description": "A gold bar, also called gold bullion or gold ingot, is a quantity of refined metallic gold of any shape that is made by a bar producer meeting standard conditions of manufacture, labeling, and record keeping.",
+    "image": "goldbar.jpg"
+  },
+  {
+    "product": "Hamburger",
+    "description": "A hamburger (or burger for short) is a food, typically considered a sandwich, consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun.",
+    "image": "hamburger.jpeg"
+  }
+]

@@ -1,24 +1,43 @@
 import Navbar from 'react-bootstrap/Navbar'
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
+import {Redirect} from "react-router-dom";
+import {useState} from "react";
+import Container from "react-bootstrap/Container";
 
-const NavBar = () => {
-    const imgInvertColour = {
+const NavBar = (props) => {
+    const [redirectHome, setRedirectHome] = useState(false);
 
-        filter: 'invert(1)'
-    };
 
     return (
-        <div>
+        <>
             <Navbar bg="primary" variant="dark">
                 <Container>
-                    <Navbar.Brand>Ecommerce Storefront</Navbar.Brand>
-                    <Button href="/cart" variant="light">🛒</Button>
+                    <Navbar.Brand onClick={() => {
+                        setRedirectHome(true);
+                        setTimeout(() => setRedirectHome(false), 1)
+                    }}>
+                        Ecommerce Storefront
+                    </Navbar.Brand>
                 </Container>
+                <Navbar.Collapse className="justify-content-end">
+                    <Container>
+                        <Button variant="light"
+                                onClick={() => {
+                                    props.handleCanvas();
+                                }}>
+                            🛒
+                        </Button>
+                    </Container>
+                </Navbar.Collapse>
             </Navbar>
-            <p/>
-        </div>
+
+            {redirectHome ?
+                <Redirect to={{
+                    pathname: "/",
+                    state: JSON.stringify(props)
+                }}/> : <></>
+            }
+        </>
     );
 }
 
