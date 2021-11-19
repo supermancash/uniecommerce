@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "npm install && cd ../client && npm install",
+    "heroku-prebuild": "npm install && cd client && npm install",
     "start": "npm run client-build && cd backend && node ./bin/www",
     "dev": "concurrently \"npm run client-start\" \"nodemon ./backend/bin/www\"",
     "client-start": "cd client && react-scripts start",
