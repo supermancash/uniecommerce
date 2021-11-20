@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="adding order functionality">
-      <change afterPath="$PROJECT_DIR$/backend/dao/models/Orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/dao/mongoConnection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/admin/Orders.js" afterDir="false" />
+    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="admin order insight and mongo implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/OderForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/OderForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/admin/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/Orders.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +119,8 @@
       <workItem from="1636996368910" duration="1210000" />
       <workItem from="1637165787283" duration="6337000" />
       <workItem from="1637222262854" duration="39777000" />
-      <workItem from="1637402890009" duration="8384000" />
+      <workItem from="1637402890009" duration="8629000" />
+      <workItem from="1637439839992" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="adding basic frontend design">
       <created>1636647663643</created>
@@ -181,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637405464258</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="admin order insight and mongo implementation">
+      <created>1637439525926</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637439525926</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +216,7 @@
     <MESSAGE value="updating root package.json" />
     <MESSAGE value="updating root package.json for heroku" />
     <MESSAGE value="adding order functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding order functionality" />
+    <MESSAGE value="admin order insight and mongo implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin order insight and mongo implementation" />
   </component>
 </project>

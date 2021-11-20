@@ -16,6 +16,7 @@ const Orders = () => {
             }).then((res) => res.json())
                 .then(data => {
                         setOrdersFromFetch(data);
+                        console.log(data)
                     }
                 )
                 .catch(err => console.log(err));
@@ -25,10 +26,10 @@ const Orders = () => {
     const accordions = ordersFromFetch.map(order =>
         <Accordion.Item eventKey={ordersFromFetch.indexOf(order)}>
             <Accordion.Header>
-                Order made by {order.customer.name} (Order ID: )
+                Order made by {order.customer.name}
             </Accordion.Header>
             <Accordion.Body>
-                Order Contents:
+                Order Contents: {" (Order ID: " +order._id + ")"}
                 <ListGroup>
                     {order.cart.map(cartItem =>
                         <ListGroup.Item>
