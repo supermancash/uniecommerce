@@ -1,11 +1,14 @@
 import ProductCard from "./components/ProductCard";
 import NavBar from "./components/NavBar";
 import Cart from "./components/Cart";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {useEffect, useState} from "react";
 import Product from "./components/Product";
 import NotFound from "./components/NotFound";
 import CartCanvas from "./components/CartCanvas";
+import OrderForm from "./components/OderForm";
+
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {useEffect, useState} from "react";
+
 
 const  App = () => {
     const [productsFromFetch, setProductsFromFetch] = useState([]);
@@ -52,6 +55,9 @@ const  App = () => {
                     </Route>
                     <Route path="/cart">
                         <Cart cartItems={cartItems}/>
+                    </Route>
+                    <Route path="/order">
+                        <OrderForm cartItems={cartItems} handleCanvas={handleCanvas}/>
                     </Route>
                     {routesArr}
                     <Route>

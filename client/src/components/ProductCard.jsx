@@ -6,7 +6,6 @@ import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Stack from "react-bootstrap/Stack";
 import Ratio from "react-bootstrap/Ratio";
-import {connect} from "react-redux";
 import {Redirect} from "react-router-dom";
 import {useState} from "react";
 
@@ -61,8 +60,7 @@ const ProductCard = (props) => {
                     </Ratio>
                     <Card.Body>
                         <Card.Title>{props.productsFromFetch[i].product}</Card.Title>
-                        <Card.Text>{props.productsFromFetch[i].description.length >= 200 ? props.productsFromFetch[i].description.substring(0, 200) + " ... " : props.productsFromFetch[i].description}</Card.Text>
-                        <Card.Text>{props.productsFromFetch[i].description.length >= 200 ? "View Article to read more" : ""}</Card.Text>
+                        <Card.Text>View Article to read more</Card.Text>
                         <Stack direction="horizontal">
                             <Button variant="secondary" onClick={() => redirectHandler(i)}>View
                                 article</Button>
@@ -81,9 +79,10 @@ const ProductCard = (props) => {
 
     return (
         <div>
+            <br/>
             <Container>
                 <h2>{props.items}</h2>
-                <Row xs={1} md={2} className="g-4">
+                <Row xs={1} md={3} className="g-4">
                     {cardsArr}
                 </Row>
             </Container>
@@ -91,10 +90,4 @@ const ProductCard = (props) => {
     );
 }
 
-const mapStateToProps = (state) => {
-    return {
-        items: state.items
-    }
-}
-
-export default connect(mapStateToProps)(ProductCard)
+export default ProductCard;

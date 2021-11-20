@@ -44,9 +44,6 @@ const CartCanvas = (props) => {
                         :
                         <p>Your Cart is empty, add products to see them here</p>
                     }
-                    <Stack direction="horizontal">
-
-                    </Stack>
                 </Offcanvas.Body>
                 <br/>
             </Offcanvas>

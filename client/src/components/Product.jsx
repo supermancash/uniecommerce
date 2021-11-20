@@ -10,21 +10,11 @@ const Product = (props) => {
     return (
         <div>
             <br/>
-            <Container>
-                <Card className="bg-dark bg-opacity-50 text-black text-lg-center">
-                    <Card.Img src={"/images/" + props.image} alt="Product image"/>
-                    <Card.ImgOverlay>
-                        <Stack>
-                            <Button className="ms-auto" variant="secondary"
-                                    onClick={() => setOverlayHidden(!overlayHidden)}>...</Button>
-                        </Stack>
-                        <Stack hidden={overlayHidden}>
-                            <br/>
-                            <Card.Title className="mx-auto">{props.product}</Card.Title>
-                            <Card.Text>{props.description}</Card.Text>
-                        </Stack>
-                    </Card.ImgOverlay>
+            <Container bsPrefix="individualProduct">
+                <Card>
+                    <Card.Img src={"/images/"+props.image}></Card.Img>
                 </Card>
+                <p>{props.description}</p>
             </Container>
         </div>
     );

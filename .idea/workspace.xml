@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="updating root package.json">
+    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="updating root package.json for heroku">
+      <change afterPath="$PROJECT_DIR$/client/public/images/canadagoose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/images/sunglasses.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/OderForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/CartCanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CartCanvas.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NotFound.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/reducers/cartReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +87,7 @@
       <recent name="$PROJECT_DIR$/client/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -119,7 +130,8 @@
       <workItem from="1636914694982" duration="1129000" />
       <workItem from="1636996368910" duration="1210000" />
       <workItem from="1637165787283" duration="6337000" />
-      <workItem from="1637222262854" duration="33472000" />
+      <workItem from="1637222262854" duration="39777000" />
+      <workItem from="1637402890009" duration="2295000" />
     </task>
     <task id="LOCAL-00001" summary="adding basic frontend design">
       <created>1636647663643</created>
@@ -149,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637320546653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updating root package.json for heroku">
+      <created>1637327417788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637327417788</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updating root package.json for heroku">
+      <created>1637327523186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637327523186</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +211,7 @@
     <MESSAGE value="first working prototype" />
     <MESSAGE value="remove yarn.lock" />
     <MESSAGE value="updating root package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating root package.json" />
+    <MESSAGE value="updating root package.json for heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating root package.json for heroku" />
   </component>
 </project>
