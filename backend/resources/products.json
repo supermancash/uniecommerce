@@ -5,9 +5,9 @@
     "image": "tshirt.jpeg"
   },
   {
-    "product": "Jacket",
-    "description": "A jacket is a garment for the upper body, usually extending below the hips. A jacket typically has sleeves, and fastens in the front or slightly on the side. A jacket is generally lighter, tighter-fitting, and less insulating than a coat, which is outerwear.",
-    "image": "canadagoose.jpg"
+    "product": "Hoodie",
+    "description": "A hoodie (in some cases it is also spelt hoody and alternatively known as a hooded sweatshirt) is a sweatshirt with a hood. Hoodies often include a muff sewn onto the lower front, and (usually) a drawstring to adjust the hood opening.",
+    "image": "hoodie.jpeg"
   },
   {
     "product": "Trousers",
@@ -19,11 +19,7 @@
     "description": "Sunglasses or sun glasses (informally called shades or sunnies; more names below) are a form of protective eyewear designed primarily to prevent bright sunlight and high-energy visible light from damaging or discomforting the eyes.",
     "image": "sunglasses.jpg"
   },
-  {
-    "product": "Hoodie",
-    "description": "A hoodie (in some cases it is also spelt hoody and alternatively known as a hooded sweatshirt) is a sweatshirt with a hood. Hoodies often include a muff sewn onto the lower front, and (usually) a drawstring to adjust the hood opening.",
-    "image": "hoodie.jpeg"
-  },
+
   {
     "product": "Necklace",
     "description": "A necklace is an article of jewellery that is worn around the neck. Necklaces may have been one of the earliest types of adornment worn by humans. They often serve ceremonial, religious, magical, or funerary purposes and are also used as symbols of wealth and status, given that they are commonly made of precious metals and stones.",
@@ -33,6 +29,11 @@
     "product": "Basketball",
     "description": "A basketball is a spherical ball used in basketball games. Basketballs usually range in size from very small promotional items that are only a few inches (some centimeters) in diameter to extra large balls nearly 2 feet (60 cm) in diameter used in training exercises.",
     "image": "basketball.jpeg"
+  },
+  {
+    "product": "Jacket",
+    "description": "A jacket is a garment for the upper body, usually extending below the hips. A jacket typically has sleeves, and fastens in the front or slightly on the side. A jacket is generally lighter, tighter-fitting, and less insulating than a coat, which is outerwear.",
+    "image": "canadagoose.jpg"
   },
   {
     "product": "Gold Bar",

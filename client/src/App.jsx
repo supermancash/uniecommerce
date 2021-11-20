@@ -8,6 +8,7 @@ import OrderForm from "./components/OderForm";
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {useEffect, useState} from "react";
+import Orders from "./components/admin/Orders";
 
 
 const  App = () => {
@@ -58,6 +59,9 @@ const  App = () => {
                     </Route>
                     <Route path="/order">
                         <OrderForm cartItems={cartItems} handleCanvas={handleCanvas}/>
+                    </Route>
+                    <Route path="/admin/orders">
+                            <Orders/>
                     </Route>
                     {routesArr}
                     <Route>

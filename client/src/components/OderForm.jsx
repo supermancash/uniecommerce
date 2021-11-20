@@ -55,6 +55,22 @@ const OderForm = (props) => {
             );
         }
         if(name.length && street.length && hnumber.length && email.length) {
+            const dataForPost = {
+                customer: {
+                    name: name,
+                    address: street + " " + hnumber,
+                    email: email
+                },
+                cart: props.cartItems
+            }
+            console.log(dataForPost);
+            fetch('/api/orders', {
+                method: 'POST',
+                headers: {
+                    "content-type": "application/json"
+                },
+                body: JSON.stringify(dataForPost)
+            }).catch(err => console.log(err));
             setThankYou(true);
         }
     }
