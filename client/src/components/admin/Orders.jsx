@@ -7,7 +7,7 @@ const Orders = () => {
     const [ordersFromFetch, setOrdersFromFetch] = useState([]);
 
     useEffect(() => {
-        setInterval(() => {
+        const getOrders = () => {
             fetch('/api/orders', {
                 method: 'GET',
                 headers: {
@@ -17,15 +17,18 @@ const Orders = () => {
                 .then(data => {
                         data.reverse();
                         setOrdersFromFetch(data);
-                        console.log(data)
                     }
                 )
                 .catch(err => console.log(err));
+        }
+        getOrders();
+        setInterval(() => {
+            getOrders();
         }, 5000);
     }, []);
 
     const accordions = ordersFromFetch.map(order =>
-        <Accordion.Item eventKey={ordersFromFetch.indexOf(order)}>
+        <Accordion.Item key={ordersFromFetch.indexOf(order)} eventKey={ordersFromFetch.indexOf(order).toString()}>
             <Accordion.Header>
                 Order made by {order.customer.name}
             </Accordion.Header>
@@ -47,7 +50,7 @@ const Orders = () => {
             <Container>
                 <br/>
                 <h3>Recent orders</h3>
-                <Accordion>
+                <Accordion defaultActiveKey="0">
                     {accordions.length ? accordions : <p>Sorry, no recent orders found</p>}
                 </Accordion>
             </Container>
