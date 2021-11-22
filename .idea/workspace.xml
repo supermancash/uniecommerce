@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="adding order id to order display">
+    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="styling changes and adding cart functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/CartCanvas.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CartCanvas.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/admin/Orders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/Orders.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/OderForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/OderForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +38,9 @@
         <option name="mavenHome" value="C:\0\sys\pgm\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="205Lz6c3Xt9jGB2ZTBTx21o6kUc" />
   <component name="ProjectLevelVcsManager">
@@ -126,7 +124,7 @@
       <workItem from="1637222262854" duration="39777000" />
       <workItem from="1637402890009" duration="8629000" />
       <workItem from="1637439839992" duration="644000" />
-      <workItem from="1637487382467" duration="3999000" />
+      <workItem from="1637487382467" duration="4277000" />
     </task>
     <task id="LOCAL-00001" summary="adding basic frontend design">
       <created>1636647663643</created>
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637440198587</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="styling changes and adding cart functionality">
+      <created>1637602283215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637602283215</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +236,7 @@
     <MESSAGE value="adding order functionality" />
     <MESSAGE value="admin order insight and mongo implementation" />
     <MESSAGE value="adding order id to order display" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding order id to order display" />
+    <MESSAGE value="styling changes and adding cart functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling changes and adding cart functionality" />
   </component>
 </project>

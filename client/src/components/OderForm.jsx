@@ -45,8 +45,10 @@ const OderForm = (props) => {
                 }, 2000
             );
         }
-        if (!email.length) {
-            setOrderContent("Please enter a E-mail");
+        const emailRe = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+        if (!emailRe.test(email)) {
+            setOrderContent("Please enter a valid E-mail");
             setOrderVariant("danger");
             setTimeout(() => {
                     setOrderVariant("primary")
@@ -54,7 +56,7 @@ const OderForm = (props) => {
                 }, 2000
             );
         }
-        if(name.length && street.length && hnumber.length && email.length) {
+        if(name.length && street.length && hnumber.length && emailRe.test(email)) {
             const dataForPost = {
                 customer: {
                     name: name,
@@ -63,7 +65,6 @@ const OderForm = (props) => {
                 },
                 cart: props.cartItems
             }
-            console.log(dataForPost);
             fetch('/api/orders', {
                 method: 'POST',
                 headers: {
