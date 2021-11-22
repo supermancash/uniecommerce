@@ -13,7 +13,7 @@ const Cart = (props) => {
         <Accordion.Item key={props.cartItems.indexOf(item)} eventKey={props.cartItems.indexOf(item)}>
             <Accordion.Header>
                 <Image width="8%" height="5%" src={"/images/" + item.details.image}/>
-                {item.addedCount + " " + item.details.product}{item.addedCount > 1 ? "s" : ""}</Accordion.Header>
+                {item.addedCount + " " + item.details.product}</Accordion.Header>
             <Accordion.Body>{item.details.description}</Accordion.Body>
         </Accordion.Item>
     );

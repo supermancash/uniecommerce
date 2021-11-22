@@ -1,16 +1,27 @@
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {Redirect} from "react-router-dom";
-import {Alert} from "react-bootstrap";
+import {Alert, CloseButton, FormControl, InputGroup} from "react-bootstrap";
 import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
 
 
 const CartCanvas = (props) => {
     const [redirectCart, setRedirectCart] = useState(false);
+    const [forceLocalUpdate, setFLU] = useState(false);
 
-    return(
+    const removeHandler = (itemToRemove) => {
+        const cartItemsArr = props.cartItems;
+        cartItemsArr.splice(cartItemsArr.indexOf(itemToRemove));
+        props.setCartItems(cartItemsArr);
+
+        // This forces the component to rerender and acknowledge that the item has been removed from the cart
+        setFLU(!forceLocalUpdate);
+    }
+
+    return (
         <>
             <Offcanvas show={props.showCanvas} onHide={props.handleCanvas} placement="end">
                 <Offcanvas.Header closeButton>
@@ -23,10 +34,22 @@ const CartCanvas = (props) => {
                                 <div>
                                     <Alert variant="secondary">
                                         <Stack direction="horizontal">
-                                            {item.addedCount + " "}
-                                            {item.details.product}
-                                            {item.addedCount>1 ? "s" : ""}
-                                            <Image className="ms-auto" width="20%" src={"/images/" + item.details.image} fluid />
+                                            <InputGroup>
+                                                <FormControl type="number"
+                                                             defaultValue={item.addedCount}
+                                                             bsPrefix="cartInput"
+                                                             onChange={(e) => {
+                                                                 let cartItemsArr = props.cartItems;
+                                                                 cartItemsArr[cartItemsArr.indexOf(item)].addedCount = e.target.value;
+                                                                 props.setCartItems(cartItemsArr);
+                                                             }}
+                                                />
+                                            </InputGroup>
+                                            <>{item.details.product}</>
+                                            <Container>
+                                                <Image width="50%" src={"/images/" + item.details.image}/>
+                                            </Container>
+                                            <CloseButton onClick={() => removeHandler(item)} className="ms-auto" />
                                         </Stack>
                                     </Alert>
                                 </div>

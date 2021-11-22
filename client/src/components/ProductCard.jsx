@@ -35,7 +35,6 @@ const ProductCard = (props) => {
         if (itemInArr) {
             cartItemsArr[itemIndex].addedCount += 1;
         }
-        console.log(cartItemsArr);
         props.setCartItems(cartItemsArr)
     }
 

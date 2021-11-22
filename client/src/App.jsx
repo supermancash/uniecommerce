@@ -48,7 +48,7 @@ const  App = () => {
         <div>
             <Router forceRefresh={false}>
                 <NavBar cartItems={cartItems} handleCanvas={handleCanvas} showCanvas={showCanvas}/>
-                <CartCanvas cartItems={cartItems} handleCanvas={handleCanvas} showCanvas={showCanvas}/>
+                <CartCanvas cartItems={cartItems} setCartItems={setCartItems} handleCanvas={handleCanvas} showCanvas={showCanvas}/>
                 <Switch>
                     <Route exact path="/">
                         <ProductCard handleCanvas={handleCanvas} cartItems={cartItems} setCartItems={setCartItems}

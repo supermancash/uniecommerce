@@ -15,6 +15,7 @@ const Orders = () => {
                 }
             }).then((res) => res.json())
                 .then(data => {
+                        data.reverse();
                         setOrdersFromFetch(data);
                         console.log(data)
                     }
@@ -29,7 +30,7 @@ const Orders = () => {
                 Order made by {order.customer.name}
             </Accordion.Header>
             <Accordion.Body>
-                Order Contents: {" (Order ID: " +order._id + ")"}
+                Order Contents: {" (Order ID: " + order._id + ")"}
                 <ListGroup>
                     {order.cart.map(cartItem =>
                         <ListGroup.Item>
@@ -46,9 +47,9 @@ const Orders = () => {
             <Container>
                 <br/>
                 <h3>Recent orders</h3>
-                    <Accordion>
-                        {accordions.length ? accordions : <p>Sorry, no recent orders found</p>}
-                    </Accordion>
+                <Accordion>
+                    {accordions.length ? accordions : <p>Sorry, no recent orders found</p>}
+                </Accordion>
             </Container>
         </>
     )

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="admin order insight and mongo implementation">
+    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="adding order id to order display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/admin/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/Orders.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/CartCanvas.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CartCanvas.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProductCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/admin/Orders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/Orders.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +125,8 @@
       <workItem from="1637165787283" duration="6337000" />
       <workItem from="1637222262854" duration="39777000" />
       <workItem from="1637402890009" duration="8629000" />
-      <workItem from="1637439839992" duration="264000" />
+      <workItem from="1637439839992" duration="644000" />
+      <workItem from="1637487382467" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="adding basic frontend design">
       <created>1636647663643</created>
@@ -178,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637439525926</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding order id to order display">
+      <created>1637440198587</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637440198587</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +230,7 @@
     <MESSAGE value="updating root package.json for heroku" />
     <MESSAGE value="adding order functionality" />
     <MESSAGE value="admin order insight and mongo implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin order insight and mongo implementation" />
+    <MESSAGE value="adding order id to order display" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding order id to order display" />
   </component>
 </project>
