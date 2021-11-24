@@ -65,7 +65,11 @@ const CartCanvas = (props) => {
 
                         </div>
                         :
-                        <p>Your Cart is empty, add products to see them here</p>
+                        <>
+                            <p>🤔 Hmmmm looks like your cart is empty... 🤔</p>
+                            <p>Add more products to see them here</p>
+                        </>
+
                     }
                 </Offcanvas.Body>
                 <br/>

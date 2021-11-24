@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-.thankyou {
+.centered {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -36,3 +36,4 @@ code {
   justify-content: start;
   width: 30%;
 }
+

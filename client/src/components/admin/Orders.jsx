@@ -30,7 +30,7 @@ const Orders = () => {
     const accordions = ordersFromFetch.map(order =>
         <Accordion.Item key={ordersFromFetch.indexOf(order)} eventKey={ordersFromFetch.indexOf(order).toString()}>
             <Accordion.Header>
-                Order made by {order.customer.name}
+                Order made by: {order.customer.name}
             </Accordion.Header>
             <Accordion.Body>
                 Order Contents: {" (Order ID: " + order._id + ")"}

@@ -79,7 +79,7 @@ const OderForm = (props) => {
     return (
         <>
             {thankYou ?
-                <div className="thankyou">
+                <div className="centered">
                     <h1>Thank you for ordering at Ecommerce Storefront</h1>
                 </div>
                 :

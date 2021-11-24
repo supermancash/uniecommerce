@@ -3,6 +3,8 @@ import Button from "react-bootstrap/Button";
 import {Redirect} from "react-router-dom";
 import {useState} from "react";
 import Container from "react-bootstrap/Container";
+import Stack from "react-bootstrap/Stack";
+import {Nav} from "react-bootstrap";
 
 const NavBar = (props) => {
     const [redirectHome, setRedirectHome] = useState(false);
@@ -11,24 +13,28 @@ const NavBar = (props) => {
     return (
         <>
             <Navbar bg="primary" variant="dark">
-                <Container>
-                    <Navbar.Brand onClick={() => {
-                        setRedirectHome(true);
-                        setTimeout(() => setRedirectHome(false), 1)
-                    }}>
-                        Ecommerce Storefront
+                <Container fluid>
+                    <Button variant="light"
+                            onClick={() => {
+                                setRedirectHome(true);
+                                setTimeout(() => setRedirectHome(false), 1);
+                            }}
+                    >
+                        🏠
+                    </Button>
+                    <Navbar.Brand className="centered">
+                        Ecommerce storefront
                     </Navbar.Brand>
-                </Container>
-                <Navbar.Collapse className="justify-content-end">
-                    <Container>
+                        <Nav className="me-auto my-2 my-lg-0"/>
                         <Button variant="light"
                                 onClick={() => {
                                     props.handleCanvas();
-                                }}>
+                                }}
+                                className="ms-auto"
+                        >
                             🛒
                         </Button>
-                    </Container>
-                </Navbar.Collapse>
+                </Container>
             </Navbar>
 
             {redirectHome ?

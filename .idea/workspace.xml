@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="fixing waiting time for orders">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="625ad3db-bc14-43aa-8d11-fa2e388e35cd" name="Changes" comment="removing db password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dao/mongoConnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dao/mongoConnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/CartCanvas.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CartCanvas.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/OderForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/OderForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/admin/Orders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/Orders.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +129,8 @@
       <workItem from="1637222262854" duration="39777000" />
       <workItem from="1637402890009" duration="8629000" />
       <workItem from="1637439839992" duration="644000" />
-      <workItem from="1637487382467" duration="5742000" />
+      <workItem from="1637487382467" duration="5862000" />
+      <workItem from="1637772663688" duration="2553000" />
     </task>
     <task id="LOCAL-00001" summary="adding basic frontend design">
       <created>1636647663643</created>
@@ -213,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637603224829</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="removing db password">
+      <created>1637605837864</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637605837864</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +266,7 @@
     <MESSAGE value="styling changes and adding cart functionality" />
     <MESSAGE value="adding email validation" />
     <MESSAGE value="fixing waiting time for orders" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing waiting time for orders" />
+    <MESSAGE value="removing db password" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing db password" />
   </component>
 </project>
